@@ -1,10 +1,10 @@
 # weather_dash
 
-    ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
-    A weather dashboard using third party API Openweathermap.
+A weather dashboard using third party API Openweathermap.
 
- https://alwesson.github.io/weather_dash/
+https://alwesson.github.io/weather_dash/
 
 ## Table of Contents
  - [Built_With](#Built_With)
