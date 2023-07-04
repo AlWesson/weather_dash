@@ -4,9 +4,9 @@
 
     A weather dashboard using third party API Openweathermap.
 
-    https://alwesson.github.io/weather_dash/
+ https://alwesson.github.io/weather_dash/
 
-    ## Table of Contents
+## Table of Contents
  - [Built_With](#Built_With)
  - [License](#License)
  - [Questions](#Questions)
