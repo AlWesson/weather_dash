@@ -24,70 +24,81 @@
     <header>
         <h1> Weather Dashboard </h1>
     </header>
-    <div class="container">
-        <div class="searchz ">
-            <input type="text" id="city" name="city" placeholder="Enter city name"> <br>
-            <button id="getForecast"> Get Forecast </button>
-            
+    <div class="external">
+    <div class="searchz ">
+        <input type="text" class="city" id='cityInput' name="city" placeholder="Enter city name"> <br>
+        <button class="getForecast" id="forecastButton"> Get Forecast </button>
+        <button class="ridForecast" id="deleteHistory"> Remove History</button>
+        <div class="history" id="history">
+            <ul id="historyList">
+
+            </ul>
         </div>
+            
+    </div>
+    <div class="container">
+
+        
+        
 
         <div class="today">
-            <div class="day0 card"> 0 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day card">  
+                <div class='date' id="date"></div>
+                <h4 class="location" id="location"> </h4>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp" id="temp"> Temperature: </p>
+                <p class="wind" id="wind"> Wind Speed: </p>
+                <p class="humidity" id="humidity"> Humidity: </p>
             </div>
                 
         </div>
-
+        
         <div class="cardz">
             
-            <div class="day1 card"> 1 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day1 card"> 
+                <div class='date1' id="date1"></div>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon1" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp1" id="temp1"> Temperature:</p>
+                <p class="wind1" id="wind1"> Wind Speed:</p>
+                <p class="humidity1" id="humidity1"> Humidity:</p>
             </div>
 
-            <div class="day2 card"> 2 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day2 card">  
+                <div class='date2' id="date2"></div>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon2" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp2" id="temp2"> Temperature:</p>
+                <p class="wind2" id="wind2"> Wind Speed:</p>
+                <p class="humidity2" id="humidity2"> Humidity:</p>
             </div>
             
-            <div class="day3 card"> 3 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day3 card">  
+                <div class='date3' id="date3"></div>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon3" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp3" id="temp3"> Temperature:</p>
+                <p class="wind3" id="wind3"> Wind Speed:</p>
+                <p class="humidity3" id="humidity3"> Humidity:</p>
             </div>
 
-            <div class="day4 card"> 4 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day4 card">  
+                <div class='date4' id="date4"></div>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon4" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp4" id="temp4"> Temperature:</p>
+                <p class="wind4" id="wind4"> Wind Speed:</p>
+                <p class="humidity4" id="humidity4"> Humidity:</p>
             </div>
 
-            <div class="day5 card"> 5 
-                <h3 class="location"> City </h3>
-                <img >
-                <p class="temp"> 1</p>
-                <p class="wind"> 2</p>
-                <p class="humidity"> 3</p>
+            <div class="day5 card">  
+                <div class='date5' id="date5"></div>
+                <a href="https://openweathermap.org/img/wn/10d@2x.png" target=""><img id="icon5" src="https://openweathermap.org/img/wn/10d@2x.png"></a>
+                <p class="temp5" id="temp5"> Temperature:</p>
+                <p class="wind5" id="wind5"> Wind Speed:</p>
+                <p class="humidity5" id="humidity5"> Humidity:</p>
             </div>
         </div>
     </div>
+</div>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./Assets/js/weather_dash.js"></script>
 </body>
 </html>

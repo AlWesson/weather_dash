@@ -20,14 +20,54 @@ header {
 }
 h1 { align-self: center; font-weight: bolder;}
 
+body {
+    background-color: dimgray;
+    color: dimgray;
+}
+
+.external {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+    
+}
 .container {
     display: flex;
     flex-direction: column;
-   
+    
+}
+.card {
+    padding:5px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 167);
 }
 .searchz {
-    align-self: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    align-self: start;
+}
+.getForecast {
+    justify-self: center;
+    max-width: 100px;
+    max-height: 60px;
+    width: 100px;
+    height: 60px;
+    background-color: darkolivegreen;
+    border-radius: 15px;
+}
+.ridForecast {
+    justify-self: center;
+    max-width: 100px;
+    max-height: 60px;
+    width: 100px;
+    height: 60px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+.cardz {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 
