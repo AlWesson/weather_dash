@@ -73,6 +73,7 @@ body {
 .buttonDiv {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2%;
 }
 .cardz {
     display: grid;
